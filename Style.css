@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=PT+Sans+Narrow:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #68bca0;
+    background-attachment: fixed;
+    background-image: url(https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.jpg?b=1&s=612x612&w=0&k=20&c=XCodgEBZ86FDKt_t6KiR6iAWvHwaOQcF4F2_B7TJA3A=);
+    background-image: linear-gradient(315deg,#b8c6db 0% rgb(190, 126, 126) 100%);
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0cm;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quiz-container{
+    background-color:rgb(135, 108, 108);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(160, 129, 129);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header{
+   padding: 4rem;   
+}
+
+h2{
+    padding:1.5rem;
+    text-align: center;
+    margin: 0;  
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color:rgba(109, 13, 129, 0.458);
+    color: yellow;
+    border:none ;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 0.8em;
+}
+
+button:hover{
+    background-color: rgb(29, 34, 34);
+}
+
+button:focus{
+    outline:none;
+    background-color: rgb(55, 5, 136);    
+}
+
+
+
+
